@@ -22,7 +22,7 @@ except Exception:
     import platform
     if platform.system() == 'Windows':
         site.addsitedir(os.path.abspath(os.path.dirname(__file__) + '/libs'))
-        H3_MESSAGE = 'H3 was successfully installed'
+        H3_MESSAGE = '<p>H3 was successfully installed.</p><p>To uninstall, you must manually remove this plugin directory "{}" when QGIS is not running.</p><p>Using the QGIS plugin manager to remove it will not work.</p.'.format(os.path.abspath(os.path.dirname(__file__)))
     else:
         H3_MESSAGE = '<p>This plugin only works with Windows.</p>' + H3_MESSAGE
 
