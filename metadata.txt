@@ -1,15 +1,15 @@
 [general]
 name=H3 Library Installation
-qgisMinimumVersion=3.0
+qgisMinimumVersion=3.20.3
 description=Install Windows H3 Library
-version=3.0.0
+version=3.0.1
 author=C Hamilton
 email=adenaculture@gmail.com
-about=Install Windows H3 Library
-tracker=https://github.com/NationalSecurityAgency/qgis-densityanalysis-plugin/issues
-repository=https://github.com/NationalSecurityAgency/qgis-densityanalysis-plugin
+about=Install Windows H3 Library. This is a helper plugin to install the H3 python library to windows instances of QGIS. It is better to 'pip install h3' from the OSGeo4W console, but for those who don't have system administrator rights, this method may be beneficial.
+tracker=https://github.com/NationalSecurityAgency/qgis-h3library-plugin/issues
+repository=https://github.com/NationalSecurityAgency/qgis-h3library-plugin
 tags=h3
-homepage=https://github.com/NationalSecurityAgency/qgis-densityanalysis-plugin/#readme
+homepage=https://github.com/NationalSecurityAgency/qgis-h3library-plugin/#readme
 category=Plugins
 experimental=False
 deprecated=False
