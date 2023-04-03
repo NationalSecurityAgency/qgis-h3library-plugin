@@ -1,11 +1,12 @@
 Metadata-Version: 2.1
 Name: h3
-Version: 3.7.6
+Version: 3.7.4
 Summary: Hierarchical hexagonal geospatial indexing system
 Home-page: https://github.com/uber/h3-py
 Author: Uber Technologies
 Author-email: AJ Friend <ajfriend@gmail.com>
 License: Apache 2.0 License
+Platform: UNKNOWN
 Classifier: Development Status :: 5 - Production/Stable
 Classifier: Intended Audience :: Developers
 Classifier: Intended Audience :: Science/Research
@@ -18,8 +19,6 @@ Classifier: Programming Language :: Python :: 3.6
 Classifier: Programming Language :: Python :: 3.7
 Classifier: Programming Language :: Python :: 3.8
 Classifier: Programming Language :: Python :: 3.9
-Classifier: Programming Language :: Python :: 3.10
-Classifier: Programming Language :: Python :: 3.11
 Classifier: Operating System :: MacOS :: MacOS X
 Classifier: Operating System :: POSIX :: Linux
 Classifier: Operating System :: Microsoft :: Windows
@@ -137,3 +136,5 @@ Use `h3.versions()` to see the version numbers for both
 >>> h3.versions()
 {'c': '3.6.3', 'python': '3.6.1'}
 ```
+
+

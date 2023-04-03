@@ -2,10 +2,10 @@
 name=H3 Library Installation
 qgisMinimumVersion=3.0
 description=Install Windows H3 Library
-version=3.0.1
+version=3.0.0
 author=C Hamilton
 email=adenaculture@gmail.com
-about=This adds the H3 (Hexagonal hierarchical geospatial indexing system) to Windows QGIS inatallations. It is used by the Density Analysis plugin. It is best to "pip install H3" from the OSGeo4W console, but if that is not possible, then you can get H3 on windows with this plugin. Note that once installed you cannot uninstall this though the plugin manager. It must be manually removed while QGIS is not running.
+about=Install Windows H3 Library
 tracker=https://github.com/NationalSecurityAgency/qgis-densityanalysis-plugin/issues
 repository=https://github.com/NationalSecurityAgency/qgis-densityanalysis-plugin
 tags=h3
